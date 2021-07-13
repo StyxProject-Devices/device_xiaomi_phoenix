@@ -15,5 +15,15 @@
         "target_path":  "vendor/xiaomi/phoenix",
         "remote"     :  "github",
         "branch"     :  "r"
+    },   
+    {   
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi"
+        "branch"     :  "lineage-18.1"
+    },
+    {   
+        "repository":   "StyxProject-Devices/vendor_xiaomi_sm6150-common",
+        "target_path":  "vendor/xiaomi/sm6150-common"
+        "branch"     :  "R"
     }
-] 
+]
