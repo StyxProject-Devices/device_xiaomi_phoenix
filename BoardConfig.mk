@@ -27,8 +27,6 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a76
 
-TARGET_USES_64_BIT_BINDER := true
-
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
@@ -251,4 +249,3 @@ BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 
 # Inherit from the proprietary version
 include vendor/xiaomi/phoenix/BoardConfigVendor.mk
-
