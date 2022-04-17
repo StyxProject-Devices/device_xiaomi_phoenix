@@ -35,11 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
    frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
-# ATRACE_HAL
-PRODUCT_PACKAGES += \
-    android.hardware.atrace@1.0-service \
-    android.hardware.atrace@1.0.vendor
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
